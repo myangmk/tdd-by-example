@@ -9,6 +9,14 @@ class Money {
         this.currency = currency;
     }
 
+    static Money franc(int amount) {
+        return new Money(amount, "CHF");
+    }
+
+    static Money dollar(int amount) {
+        return new Money(amount, "USD");
+    }
+
     public boolean equals(Object object) {
         Money money = (Money) object;
         return amount == money.amount && currency().equals(money.currency);
