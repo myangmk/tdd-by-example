@@ -2,7 +2,7 @@
 
 - [ ] $5 + 10CHF = $10 (환율이 2:1인 경우)
 - [x] $5 * 2 = $10
-- [ ] amount를 private으로 만들기
+- [x] amount를 private으로 만들기
 - [x] Dollar side effect?
 - [] Money 반올림?
 - [x] equals()
@@ -10,11 +10,11 @@
 - [ ] equal null
 - [ ] equal Object
 - [x] 5CHF * 2 = 10CHF
-- [ ] Dollar/Franc 중복
+- [ ] Dollar/Franc 중복**
 - [x] 공용 equals
 - [ ] 공용 times
 - [x] Franc과 Dollar 비교하기
-- [ ] 통화?
+- [x] 통화?
 - [ ] testFrancMultiplication을 지워야할까?
 
 
